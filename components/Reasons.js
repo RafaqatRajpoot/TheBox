@@ -11,7 +11,7 @@ const Reasons = () => {
         });
     }, [])
     return (
-        <div className="w-full min-h-[433px]">
+        <div id='reasons' className="w-full min-h-[433px]">
             <div className="p-14 text-center">
                 <p className="text-4xl text-bold">Our Reputation</p>
                 <div className="mt-12 flex gap-20 justify-center">

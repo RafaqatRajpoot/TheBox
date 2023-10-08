@@ -1,6 +1,8 @@
-const Page = () => {
+import React from 'react'
+
+const About = () => {
     return (
-        <div className='w-full min-h-[90vh]'>
+        <div id='about' className='w-full min-h-[90vh]'>
             <div className='mt-20 mx-28 relative'>
                 <div className='flex'>
                     <img src='/about_pic.png' alt='Pic' width={902} height={669} />
@@ -8,7 +10,6 @@ const Page = () => {
                         <p className='text-white text-3xl font-bold mb-4'>About us</p>
                         <p className='text-white text-justify'>
                             For more than 30 years we have been delivering world-class construction and we’ve built many lasting relationships along the way.
-
                         </p>
                         <p className='text-white text-justify'>
                             We’ve matured into an industry leader and trusted resource for those seeking quality, innovation and reliability when building in the U.S.
@@ -18,12 +19,11 @@ const Page = () => {
                                 More on Our History
                             </span>
                         </button>
-
                     </div>
                 </div>
             </div>
         </div>
-    );
-};
+    )
+}
 
-export default Page;
+export default About

@@ -5,18 +5,19 @@ import { FaCodeMerge } from 'react-icons/fa6';
 import { PiHandshakeLight } from 'react-icons/pi';
 import { MdHomeRepairService } from 'react-icons/md';
 import { MdElectricalServices } from 'react-icons/md';
-import Status from '@/components/Status'
+import Status from './Status';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
-const page = () => {
+
+const Services = () => {
     useEffect(() => {
         AOS.init({
             duration: 2000,
         });
     }, [])
     return (
-        <>
+        <div id='services'>
             <div className="w-full min-h-[608px]">
                 <div className="p-11 text-center">
                     <p className="text-4xl text-extrabold">Services</p>
@@ -90,8 +91,8 @@ const page = () => {
                 </div>
             </div>
             <Status />
-        </>
+        </div>
     )
 }
 
-export default page
+export default Services

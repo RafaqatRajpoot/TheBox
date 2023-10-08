@@ -3,9 +3,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
-const page = () => {
+const Projects = () => {
     return (
-        <div className="w-full h-[90vh]">
+        <div id='projects' className="w-full h-[90vh]">
             <div className="p-14 text-center">
                 <p className="text-4xl text-bold">Projects</p>
                 <div className="my-12 px-20 flex gap-20 justify-center">
@@ -67,4 +67,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Projects

@@ -1,8 +1,7 @@
-import Footer from "@/components/Footer"
-
-const page = () => {
+import Footer from "./Footer"
+const Contact = () => {
     return (
-        <>
+        <div id="contact">
             <div className='w-2/5 h-[65vh] mx-auto flex flex-col items-center mt-14 gap-5'>
                 <p className='text-bold text-4xl'>What can us do for you?</p>
                 <p className='text-justify w-1/2 mb-4'>We are ready to work on a project of any complexity, whether it’s commercial or residential.</p>
@@ -31,8 +30,8 @@ const page = () => {
                 </div>
             </div>
             <Footer />
-        </>
+        </div>
     )
 }
 
-export default page
+export default Contact

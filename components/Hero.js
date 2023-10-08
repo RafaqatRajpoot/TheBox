@@ -5,7 +5,7 @@ import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
 const Hero = () => {
     return (
-        <div className='w-full min-h-[90vh]'>
+        <div id='home' className='w-full min-h-[90vh] mt-[10vh]'>
             <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
                 <SwiperSlide><div className='w-full h-[90vh] bg-custom-image-1 bg-cover bg-cover bg-center flex'>
                     <div className='flex px-28 items-center'>
